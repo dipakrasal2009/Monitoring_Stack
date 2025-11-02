@@ -13,7 +13,7 @@ from flask import Flask, jsonify, request
 from prometheus_client import Counter, Histogram, Gauge, generate_latest, CONTENT_TYPE_LATEST
 import json
 
-# Configure logging
+# Configure logging...
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
